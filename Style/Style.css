@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Domine:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap');
 body{
     background-color: rgb(228, 252, 228);
 }
@@ -16,15 +19,51 @@ nav a{
     color: black;
     font-size: 19px;
 }
+.footer a{
+    display: flex;
+    text-align: center;
+}
+.footer{
 
+    text-align: center;
 
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+
+}
+main{
+    color: black;
+    background-color: #b3d1d6
+}
+
+.welcome{
+    padding: 20px;
+    background-color: rgb(104, 185, 199);
+    text-align: center;
+    color: white;
+}
+.infoCurso img{
+        width: 225px;
+        float: left;
+        margin-right: 30px;
+    }
+.infoCurso h3{
+    text-align: center;
+}
+.infoCurso{
+        overflow: auto;
+        margin-bottom: 30px;
+}
 .tarjetas {
-
+    justify-content: center;
     display: flex;
 
 }
  
 .card{
+    justify-content: center;
 
     margin: 20px;
 
@@ -46,17 +85,80 @@ nav a{
 
 .card:hover{
 
-    background-color: aliceblue;
+    background-color: rgb(169, 204, 235);
 
     transform: scale(1.05);
 
 }
-
+.card h1{
+    justify-content: center;
+    font-family: "Playfair Display", serif;
+}
+.card p{
+    justify-content: center;
+    font-family: "Playfair Display", serif;
+}
 .card img{
-
+    height: auto;
+    width: 200px;
+    height: 150px;
     width: 100%;
 
     border-radius: 20px;
 
+}
+.tarjetass {
+    justify-content: center;
+    display: flex;
+
+}
+.cards{
+    justify-content: center;
+
+    margin: 20px;
+
+    width: 300px;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    font-family: "Afacad Flux", sans-serif;
+
+    box-shadow: 0px 5px 10px black;
+
+    padding: 20px;
+
+    background-color: lightblue;
+
+}
+
+.cards:hover{
+
+    background-color: rgb(169, 204, 235);
+
+    transform: scale(1.05);
+
+}
+.cards h1{
+    justify-content: center;
+    font-family: "Playfair Display", serif;
+}
+.cards p{
+    justify-content: center;
+    font-family: "Playfair Display", serif;
+}
+.cards img{
+    height: auto;
+    width: 200px;
+    height: 150px;
+    width: 100%;
+
+    border-radius: 20px;
+
+}
+footer{
+    background-color: rgb(201, 199, 199);
+    text-align: center;
 }
  
